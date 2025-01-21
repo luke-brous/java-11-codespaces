@@ -1,0 +1,24 @@
+{
+    "name": "Java Codespaces Environment",
+    "image": "mcr.microsoft.com/devcontainers/java:11",
+    "features": {
+      "ghcr.io/devcontainers/features/java:1": {
+        "version": "11"
+      }
+    },
+    "postCreateCommand": "echo 'Java environment ready!'",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "vscjava.vscode-java-pack",
+          "redhat.java",
+          "vscjava.vscode-maven",
+          "editorconfig.editorconfig",
+          "visualstudioexptteam.vscodeintellicode",
+          "richardwillis.vscode-gradle",
+          "shengchen.vscode-checkstyle"
+        ]
+      }
+    }
+  }
+  
