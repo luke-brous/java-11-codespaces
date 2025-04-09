@@ -1,3 +1,8 @@
+// runs in Theta(n) time
+// Space complexity is O(1)
+// Sequential Search
+
+
 public class Sequential {
 
 
@@ -5,7 +10,7 @@ public class Sequential {
         String[] a = {"Hello", "There", "When", "How"};
         String word = "How"; 
         int index = search(word,a);
-        System.out.println(index);
+        StdOut.println(index);
     }
 
 
